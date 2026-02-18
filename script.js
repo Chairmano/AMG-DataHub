@@ -1,8 +1,4 @@
 function toggleMenu() {
   const sidebar = document.getElementById("sidebar");
-  if (sidebar.style.left === "0px") {
-    sidebar.style.left = "-250px";
-  } else {
-    sidebar.style.left = "0px";
-  }
+  sidebar.style.left = sidebar.style.left === "0px" ? "-250px" : "0px";
 }
