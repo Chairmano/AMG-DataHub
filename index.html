@@ -9,93 +9,82 @@
 </head>
 <body>
 
-<!-- NAVBAR -->
 <header class="navbar">
   <div class="logo">
-    <span class="dm">DM</span>
-    <span class="brand">AMG <b>DataHub</b></span>
+    <div class="logo-box">AMG</div>
+    <h2>Data Hub</h2>
   </div>
-  <div class="nav-icons">
-    <button onclick="toggleMenu()">☰</button>
-  </div>
+  <button class="menu-btn" onclick="toggleMenu()">☰</button>
 </header>
 
-<!-- SIDE MENU -->
 <div id="sidebar" class="sidebar">
-  <h3>Menu</h3>
+  <h3>AMG Menu</h3>
   <a href="#">Dashboard</a>
   <a href="#">Transactions</a>
-  <a href="#">API Documentation</a>
+  <a href="#">Bulk Purchase</a>
+  <a href="#">API Access</a>
   <a href="#">Profile</a>
   <a href="#">Logout</a>
 </div>
 
-<!-- HERO -->
 <section class="hero">
-  <h2>Welcome, Chairmano AMG 👑</h2>
+  <h1>Welcome, Chairmano AMG 👑</h1>
   <p>System Online • 24/7 Instant Delivery</p>
+  <button class="cta">Become a Reseller Today</button>
 </section>
 
-<!-- STATS -->
-<section class="stats">
-  <div class="card">
-    <h4>Balance</h4>
+<section class="wallet">
+  <div class="wallet-card">
+    <h3>Wallet Balance</h3>
     <p>GH₵0.61</p>
-    <button>Deposit</button>
+    <button>Deposit Funds</button>
   </div>
-
-  <div class="card">
-    <h4>Orders Today</h4>
+  <div class="wallet-card">
+    <h3>Orders Today</h3>
     <p>5</p>
   </div>
-
-  <div class="card">
-    <h4>GB Sold</h4>
-    <p>12GB</p>
-  </div>
-
-  <div class="card">
-    <h4>Revenue</h4>
-    <p>GH₵58.20</p>
-  </div>
 </section>
 
-<!-- PLACE ORDER -->
 <section class="order">
-  <h3>Place New Order</h3>
+  <h2>Buy Data</h2>
   <div class="networks">
     <button class="mtn">MTN</button>
-    <button class="at">AirtelTigo</button>
+    <button class="airteltigo">AirtelTigo</button>
     <button class="telecel">Telecel</button>
   </div>
 </section>
 
-<!-- RECENT ORDERS -->
-<section class="orders">
-  <h3>Recent Orders</h3>
+<section class="transactions">
+  <h2>Recent Transactions</h2>
   <table>
     <tr>
       <th>Phone</th>
       <th>Network</th>
       <th>Amount</th>
+      <th>Status</th>
     </tr>
     <tr>
       <td>0595390221</td>
       <td>MTN</td>
       <td>2GB</td>
+      <td>Successful</td>
     </tr>
     <tr>
       <td>0550619888</td>
       <td>MTN</td>
       <td>1GB</td>
+      <td>Successful</td>
     </tr>
   </table>
 </section>
 
-<!-- WHATSAPP FLOAT -->
 <a href="https://wa.me/233241895999" class="whatsapp" target="_blank">
   💬
 </a>
+
+<footer>
+  <p>© 2026 AMG Data Hub • Built by AMG-TECH</p>
+</footer>
 
 </body>
 </html>
